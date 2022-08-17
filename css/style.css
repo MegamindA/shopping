@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+/****************************************navbar********************************************/
+
+.navbar {
+  padding: 10px;
+  width: 100%;
+  clear: both;
+  overflow: auto;
+  background-color: #008cff;
+}
+.clr{
+  clear: both;
+}
+.nav {
+  float: left;
+}
+
+.logo img {
+  float: right;
+  margin-right: 30px;
+  
+}
+
+ul li {
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  cursor: pointer;
+
+}
+
+ul li:hover {
+  color: orange;
+}
+.clr {
+  clear: both;
+}
+/****************************************header********************************************/
+.header {
+  width: 100%;
+  position: fixed;
+  background-color: rgba(34, 34, 34, 0.3);
+  height: 10vh;
+}
+.header ul li {
+  display: inline-block;
+  padding: 10px;
+  color: #008cff;
+  font-size: 25px;
+  font-weight: 700;
+  cursor: pointer;
+
+}
+.header ul li:hover {
+  color: white;
+  
+}
+.header_right {
+  padding: 10px;
+  float: right;
+}
+.header_left {
+  padding: 10px;
+  margin-left: 50px;
+  float: left;
+}
+.input_text {
+  height: 40px;
+  width: 300px;
+  text-align: center;
+  direction: rtl;
+}
+.btn_search {
+  padding: 0 15px;
+  background-color: #008cff;
+  border: none;
+  height: 40px;
+}
+
+/****************************************deal_animation********************************************/
+.deals-anmiation {
+  width: 100%;
+  height: 50vh;
+  margin-top: 75px;
+  animation-name: slidshow;
+  animation-duration: 10s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidshow {
+  0% {
+    background-image: url(../images/slid1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  25% {
+    background-image: url(../images/slid2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  50% {
+    background-image: url(../images/slid3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  75% {
+    background-image: url(../images/slid4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  100% {
+    background-image: url(../images/slid5.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+/**********************************product*****************************/
+.product{
+height: 55vh;
+margin-bottom: 20px;
+background-color: #BCBCBC;
+
+}
+.product h2{
+  margin: 10px;
+  color:#008cff ;
+
+}
+.pro{
+  float: left;
+  width: 25%;
+  padding:10px 0 ;
+
+}
+.product a{
+  text-decoration: underline;
+  
+}
+
+
+/**********************************deal*****************************/
+.deal{
+  height: 30vh;
+  direction: rtl;
+  padding: 15px;
+}
+.deal img{
+  width: 10%;
+  height: 60%;
+  margin: 20px 33px;
+
+}
+.deal img:hover{
+  transform: scale(1.5);
+    cursor: pointer;
+}
+.float-img{
+  float: right;
+  width: 15%;
+  padding:0 15PX;
+}
+
+/*********************************sign*****************************/
+.sign{
+  text-align: center;
+  direction: rtl;
+  background-color: rgba(34, 34, 34, 0.3);
+padding: 20px;
+}
+.btn_sign{
+  padding: 10px;
+  background-color: darkgoldenrod;
+  border: none;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 17px;
+
+}
+.btn_sign:hover{
+  cursor: pointer;
+
+}
+/*********************footer**************************************/
+.footer {
+  height: 30vh;
+  background-color: #008cff;
+  direction: rtl;
+  padding: 40px 200px;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.float {
+  float: right;
+  margin: 0 50px;
+}
+/********************************************contact****************************/
+.contact {
+  background-color: #232f3e;
+  height: 10vh;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  direction: rtl;
+}
